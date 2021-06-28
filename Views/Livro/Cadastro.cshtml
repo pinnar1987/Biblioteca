@@ -3,5 +3,7 @@
     ViewData["Title"] = "Cadastro de Livros";
 }
 
-<h1 class="row justify-content-md-center">Cadastro de Livro</h1>
-<partial name="_FormCadastro" for="@Model" />
+<h1 class="row justify-content-md-center">Cadastro de Livros
+</h1>
+<p class="text-danger">@ViewData["mensagem"]</p>
+<partial name="_formCadastro" for="@Model" />

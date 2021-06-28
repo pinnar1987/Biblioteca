@@ -850,11 +850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\casa\\Desktop\\programar e documentar\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\casa\\Desktop\\Bibioteca\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\casa\\Desktop\\programar e documentar\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\casa\\Desktop\\Bibioteca\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\casa\\Desktop\\programar e documentar\\obj\\",
+      "outputPath": "C:\\Users\\casa\\Desktop\\Bibioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\casa\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -867,7 +867,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -879,7 +878,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
@@ -900,12 +898,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.13, 3.1.13]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -914,7 +906,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.410\\RuntimeIdentifierGraph.json"
       }
     }
   }
